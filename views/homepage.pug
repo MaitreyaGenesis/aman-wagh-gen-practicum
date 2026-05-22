@@ -1,0 +1,22 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/css/style.css")
+
+  body
+    .container
+      h1 Books Table
+      a(href="/update-cobj") Add book to this table
+
+      table
+        thead
+          tr
+            th Book Name
+            th Author
+            th Price
+        tbody
+          each book in records
+            tr
+              td= book.properties.book_name
+              td= book.properties.author
+              td= book.properties.price

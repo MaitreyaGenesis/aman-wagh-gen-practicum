@@ -1,0 +1,24 @@
+html
+  head
+    title= title
+    link(rel="stylesheet" href="/css/style.css")
+
+  body
+    .container
+      h1 Add a New Book
+      a(href="/") Return to homepage
+
+      form(action="/update-cobj" method="POST")
+        .form-group
+          label Book Name
+          input(type="text" name="book_name" required)
+
+        .form-group
+          label Author
+          input(type="text" name="author" required)
+
+        .form-group
+          label Price
+          input(type="number" name="price" required)
+
+        button(type="submit") Save Book
