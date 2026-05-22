@@ -4,7 +4,7 @@ This repository is for the Integrating With HubSpot I: Foundations course.
 
 ## Custom Object List View
 
-https://app.hubspot.com/contacts/246161881/objects/2-230050247/views/all/list\
+https://app.hubspot.com/contacts/246161881/objects/230050247/views/all/list\
 
 ## Project Overview
 
